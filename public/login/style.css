@@ -1,0 +1,75 @@
+body{
+    font-family: "Quicksand", sans-serif ;
+    background-image: url(img/sari.png);
+    background-size: cover;
+    font-weight: bold;
+}
+h1{
+    margin-top: 110px;
+}
+.box-area{
+    margin: auto;
+    width: 320px;
+    border-radius: 10px;
+    height: 330px;
+    box-shadow: 50px;
+    background-color: rgb(220, 138, 7);
+    margin-top: 110px;
+    margin-bottom: 150px;
+}
+.container{
+    justify-content: center;
+}
+img{
+    margin-top: -70px;
+}
+.btn{
+    float: inline-end;
+    margin-top: 10px;
+    margin-bottom: auto;
+    background-color: white;
+}
+@media (max-width: 1480px){
+    body{
+        margin: auto;
+    }
+
+}
+@media (max-width: 1100px){
+    h1{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 920px){
+    h1{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 320px){
+    h1{
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+
+}
